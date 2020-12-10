@@ -1,0 +1,45 @@
+:root {
+  --header-bg: #3f51b5;
+}
+
+.logo {
+  width: 3rem;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main-header {
+  align-items: center;
+  background-color: var(--header-bg, black);
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1rem;
+  justify-content: flex-start;
+}
+
+.main-header > h1 {
+  margin-bottom: 2rem;
+}
+
+.main-header p {
+  margin-left: 1rem;
+}
+
+main {
+  padding: 2rem;
+}

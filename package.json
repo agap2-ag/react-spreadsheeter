@@ -1,0 +1,72 @@
+{
+  "name": "react-spreadsheeter",
+  "description": "Export text-based spreadsheets into files",
+  "homepage": "https://agap2-ag.github.io/react-spreadsheeter/",
+  "version": "1.0.0",
+  "author": "agap2-ag",
+  "keywords": [
+    "react",
+    "typescript",
+    "material-ui",
+    "spreadsheet",
+    "excel",
+    "zip",
+    "csv"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/core": "^4.11.1",
+    "@material-ui/icons": "^4.9.1",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.53",
+    "@types/react-dom": "^16.9.8",
+    "bind-decorator": "^1.0.11",
+    "file-saver": "^2.0.5",
+    "jszip": "^3.5.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.0",
+    "typescript": "^4.0.3",
+    "web-vitals": "^0.2.4",
+    "xlsx": "^0.16.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint -c .eslintrc.js  --ext .ts,.tsx src",
+    "deploy:gh": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.8.1",
+    "@typescript-eslint/eslint-plugin-tslint": "^4.8.1",
+    "@typescript-eslint/parser": "^4.8.1",
+    "eslint": "^7.13.0",
+    "eslint-plugin-jsdoc": "^30.7.8",
+    "gh-pages": "^3.1.0",
+    "tslint": "^6.1.3"
+  }
+}

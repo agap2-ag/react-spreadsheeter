@@ -1,0 +1,15 @@
+.sheets {
+  flex-grow: 1;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.space-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.data-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
